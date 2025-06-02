@@ -1,31 +1,31 @@
 # Amazon Price Scraper
 
-Este projeto é um web scraper que utiliza o Selenium para buscar produtos na Amazon, extrair os preços e salvar os resultados em um arquivo Excel.
+This project is a web scraper that uses Selenium to search for products on Amazon, extract prices, and save the results to an Excel file.
 
-## Estrutura do Projeto
+## Project Structure
 
-- `scraper.py`: Script principal para execução do scraper.
-- `utils.py`: Contém funções auxiliares, como inicialização do driver, abertura de URL, pesquisa e extração de dados.
-- `config.py`: Arquivo de configuração onde estão armazenados a URL da Amazon, o caminho do ChromeDriver e as configurações de logging.
-- `requirements.txt`: Lista das dependências necessárias para executar o projeto.
+- `scraper.py`: Main script to run the scraper.
+- `utils.py`: Contains helper functions such as driver initialization, URL opening, search, and data extraction.
+- `config.py`: Configuration file that stores the Amazon URL, ChromeDriver path, and logging settings.
+- `requirements.txt`: List of dependencies required to run the project.
 
-## Funcionalidades
+## Features
 
-- **Pesquisa de Produtos**: O scraper permite buscar produtos na Amazon utilizando uma query fornecida pelo usuário.
-- **Filtragem de Promoções**: Após a pesquisa, o scraper aplica um filtro para exibir apenas produtos em promoção.
-- **Extração de Dados**: Extrai os títulos e preços dos produtos exibidos na página de resultados.
-- **Exportação para Excel**: Os dados extraídos são salvos em um arquivo Excel localizado na pasta `data/raw/`.
-- **Registro de Logs**: Registra logs da execução do scraper em `logs/scraper.log`.
+- **Product Search**: The scraper allows you to search for products on Amazon using a user-provided query.
+- **Promotion Filtering**: After the search, the scraper applies a filter to display only products on sale.
+- **Data Extraction**: Extracts product titles and prices from the search results page.
+- **Excel Export**: The extracted data is saved in an Excel file located in the `data/raw/` folder.
+- **Log Recording**: Logs the scraper’s execution in `logs/scraper.log`.
 
-## Requisitos
+## Requirements
 
-- Python 3.x
-- Google Chrome
+- Python 3.x  
+- Google Chrome  
 - ChromeDriver
 
-## Instalação
+## Installation
 
-1. Clone este repositório:
+1. Clone this repository:
 
    ```bash
    git clone https://github.com/jccarlosjr/webscrapping.git
